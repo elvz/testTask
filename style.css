@@ -1,0 +1,20 @@
+#board {
+  height: auto;
+  width: 180px;
+}
+
+.row {
+  height: auto;
+  width: 180px;
+  display: flex;
+}
+
+.cell {
+  border: .5px solid black;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
